@@ -687,6 +687,8 @@ section {
   color: var(--paragrapf-color);
 }
 
+/* modal */
+
 .backdrop {
   position: fixed;
   top: 0%;
@@ -708,6 +710,17 @@ section {
   bottom: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 40px;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--h-color);
+  margin-bottom: 30px;
 }
 
 .modal-close {
@@ -723,6 +736,28 @@ section {
   position: absolute;
   right: 8px;
   top: 8px;
+}
+
+input {
+  padding: 15px;
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 35px;
+}
+
+.modal-username {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
 }
 
 .vector-svg {
