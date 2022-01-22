@@ -409,7 +409,7 @@
 
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-                <button type="button" class="modal-close" data-modal-close>
+                <button type="button" class="modal-close-btn" data-modal-close>
                     <svg class="vector-svg" width="11" height="11">
                         <use href="./images/vector-sptite.svg#icon-Vector"/>
                     </svg>
@@ -453,31 +453,31 @@
                     
 
                     
-                    </label>
-                    <label for="">Комментарий
-                    <textarea    name="" id="" cols="30" rows="10" placeholder="Введите текст"></textarea>
-                </label>
-                        <div class="modal-btn-container"><button type="submit" class="modal-btn" >Отправить</button></div>
+                   
+                    <label for="textarea" class="textarea-label">Комментарий</label>
+                    <textarea name="textarea" class="form-textarea"  id="textarea" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                        <div class="modal-btn-container">
+                            <button type="submit" class="modal-btn" >Отправить</button>
+                        </div>
 
-                        <div class="form-field">
-                            <label 
-                            class="check-text"
-                            for="policy">Соглашаюсь с рассылкой и принимаю Условия договора
-                            
-                        </label>
+                        <div class="form-field checkbox-field">
                             <input 
-                                type="checkbox"  
-                                name="policy"
-                                id="policy"
+                                type="checkbox"
+                                name="policy" 
+                                id="policy" 
                                 class="policy-check visually-hidden">
-                            <span>
-                                <svg class="modal-svg" width="16" height="15">
-                                <use href="./images/check.svg#icon-icon-check" />
-                            </svg>
-                        </span>
-                            
-                            
-
+                            <span 
+                                class="span__modal-svg">
+                                    <svg class="modal-svg" width="16" height="15">
+                                        <use 
+                                            href="./images/check-rd.svg#icon-check-rd" />
+                                    </svg>
+                            </span>
+                            <label 
+                                    class="check-text"
+                                    for="policy">Соглашаюсь с рассылкой и принимаю 
+                                <a href="#" class="check-text-link">Условия договора</a> 
+                        </label>
                         </div>
                 </form>
             </div>
