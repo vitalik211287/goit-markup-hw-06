@@ -768,6 +768,7 @@ height: 581px;
 .modal-btn-container {
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 .modal-btn {
   display: inline-block;
@@ -786,6 +787,9 @@ height: 581px;
   text-align: center;
   letter-spacing: 0.06em;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+ bottom: 40px;
+ right: 50%;
+ transform: translateX(50%);
 }
 
 .modal-btn:hover {
@@ -869,7 +873,11 @@ color:  var(--accent-color);
   
  }
  .form-textarea {
-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+margin-bottom: 10px;
+
+}
+
 
 .form-textarea:focus {
 border: solid var(--accent-color) ;
@@ -889,6 +897,7 @@ color: var(--h-color);
 padding: 12px 16px;
 resize: none;
 outline: none;
+
 }
 
 .check-text-link {
@@ -899,6 +908,8 @@ margin-left: 2px;
 .check-text {
 display: flex;
 align-items: center;
+margin-left: 12px;
+
 }
 
     .check-text  span{
