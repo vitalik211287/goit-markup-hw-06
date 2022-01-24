@@ -404,11 +404,11 @@
                         <div class="footer-field">
                         <form class="footer-form" action="#">
                             <div class="lable-input-container"> 
-                                <label class="footer-lable" for="email" footer-btm">подпишись на рассылку</label>
-                                <input class="footer-input" type="email" id="email" placeholder="E-mail">
+                                <label class="footer-lable" for="email">подпишись на рассылку</label>
+                                <input class="footer-input" type="email" id="email" placeholder="E-mail" name="email-foot">
                             </div>
                             <div class="footer-btn-container" >
-                                <input type="submit" value="Подписаться" class="footer-btn" id="email">
+                                <input type="submit" value="Подписаться" class="footer-btn" id="#" name="submit-btn">
                                 <span class="icon-send-container">
                                     <svg class="icon-send" width="24" height="24">
                                         <use href="./images/icon-send.svg#icon-icon-send" />
@@ -445,8 +445,8 @@
                             </span>
                         </div>
                         <div class="form-field">
-                            <label for="email" class="form-lable">Почта</label>
-                            <input type="email" name="email" id="email" class="form-input" />
+                            <label for="mail" class="form-lable">Почта</label>
+                            <input type="email" name="form-input" id="mail" class="form-input" />
                             <span class="input-container">
                                 <svg class="modal-svg" width="15" height="12">
                                     <use href="./images/icon-modal.svg#icon-mail" />
@@ -458,24 +458,16 @@
                             <div class="modal-btn-container">
                                 <button type="submit" class="modal-btn" >Отправить</button>
                             </div>
-                            <div class="form-field checkbox-field">
-                                <input 
-                                    type="checkbox"
-                                    name="policy" 
-                                    id="policy" 
-                                    class="policy-check visually-hidden">
-                                <span 
-                                    class="span__modal-svg">
-                                        <svg class="modal-svg" width="16" height="15">
-                                            <use 
-                                                href="./images/check-rd.svg#icon-check-rd" />
-                                        </svg>
-                                </span>
-                                <label 
-                                        class="check-text"
-                                        for="policy">Соглашаюсь с рассылкой и принимаю 
+                            <div class=" checkbox-field">
+                                <input type="checkbox" name="policy" id="policy" class="policy-check visually-hidden">
+                                <label  class="check-text" for="policy" >
+                                        <span >
+                                            <svg class="policy-icon" width="16" height="15">
+                                                <use href="./images/victory.svg#icon--"/>
+                                            </svg>
+                                        </span> Соглашаюсь с рассылкой и принимаю  
                                     <a href="#" class="check-text-link">Условия договора</a> 
-                            </label>
+                                </label>
                             </div>
                     </form>
                 </div>

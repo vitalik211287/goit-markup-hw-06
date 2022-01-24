@@ -891,38 +891,39 @@ resize: none;
 outline: none;
 }
 
+.check-text-link {
+color: var(--accent-color);
+margin-left: 2px;
+    }
 
 .check-text {
-    position: relative;
-}
-
-.checkbox-field {
 display: flex;
 align-items: center;
-
 }
 
-    .check-text-link {
-        color: var(--accent-color);
-
-    }
-
-    .check-text::before {
-    min-width: 16px;
-    min-height: 15px;
-    border: 2px solid #212121;
+    .check-text  span{
+    width: 16px;
+    height: 15px;   
     border-radius: 2px;
+    border: 2px solid var(--h-color);
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+        }
+ 
+    .policy-icon {
+    fill: transparent;
     }
 
-    .span__modal-svg {
-        b
-    }
-    
-
-   .policy-check:checked + .span__modal-svg {
-        background-image: url="../images/check.svg#icon-icon-check";
+    .policy-check:checked + .check-text span {
+    border: none;
+    background-color: var(--accent-color);
     }
 
+     .policy-check:checked ~ .check-text .policy-icon {
+    fill: #FFFFFF;
+     }
+  
     /* footer form */
 
     .address-logo-container {

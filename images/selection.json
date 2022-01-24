@@ -1,0 +1,45 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "height": 45,
+      "columns": 16,
+      "margin": 16,
+      "sprite": true,
+      "overrideSize": true,
+      "addBgColor": true,
+      "autoHost": true
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16,
+    "quickUsageToken": {
+      "UntitledProject": "ZTk5MWQ5YTNmMTUwOTNjZjU1Zjk1ZDg2OGMyOTA3ZjUjMSMxNjQxODU3OTgyIyMjZmJlYzgzNmQ2YzQx"
+    }
+  }
+}
