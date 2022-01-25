@@ -793,8 +793,10 @@ height: 581px;
 }
 
 .modal-btn:hover {
+    cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
  }
+ 
     
 
  /* modal form */
@@ -879,7 +881,7 @@ margin-bottom: 10px;
 }
 
 
-.form-textarea:focus {
+.form-textarea:focus  {
 border: solid var(--accent-color) ;
  } 
 
@@ -921,6 +923,11 @@ margin-left: 12px;
     display: flex;
     align-items: center;
         }
+
+    .check-text:hover  span {
+        cursor: pointer;
+    }
+    
  
     .policy-icon {
     fill: transparent;
@@ -981,6 +988,9 @@ margin-left: 12px;
     position: relative;
     border: none;   
         }
+    .footer-btn:hover {
+        cursor: pointer;
+    }   
 
   .icon-send {
    position: absolute;
