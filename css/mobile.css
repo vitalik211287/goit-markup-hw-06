@@ -152,8 +152,8 @@ body {
 }
 @media (min-width: 768px) {
   .container {
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 @media (min-width: 1200px) {
@@ -180,6 +180,102 @@ body {
   .header-list,
   .header-address {
     display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .flex-header {
+    border-bottom: 1px solid #e7e9fc;
+    background-color: var(--background-color);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  }
+
+  /* Контейнер */
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 776px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  /* Навігація */
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Список навігації */
+  .header-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  /* Пункти навігації */
+  .header-item {
+    display: block;
+  }
+
+  /* Посилання */
+  .header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--h-color);
+    padding: 24px 0;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .current {
+    color: var(--focus-color);
+  }
+
+  .current::after {
+    content: "";
+    display: flex;
+    border-radius: 2%;
+    transition: background-color 250ms linear;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--focus-color);
+  }
+
+  .header-link:hover,
+  .header-link:focus,
+  .header-link:active {
+    color: var(--focus-color);
+  }
+
+  /* Адреса */
+  .header-address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .address-list {
+    display: flex;
+    flex-direction: column;
+    /* gap: 40px;
+  flex-wrap: wrap; */
+  }
+
+  .header-address:hover,
+  .header-address:focus {
+    color: var(--focus-color);
   }
 }
 
@@ -715,6 +811,7 @@ textarea {
 }
 
 /* advantage */
+
 /* @media screen and (max-width: 768px) {
   .container-svg {
     display: none;
@@ -736,6 +833,22 @@ textarea {
 .advantage-list {
   box-sizing: border-box;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .advantage-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+  }
+  .advantage-item {
+    width: 100%;
+    min-width: 356px;
+  }
+  .advantage-after-title {
+    min-width: 100%;
+  }
 }
 
 .advantage-item {
@@ -766,7 +879,7 @@ textarea {
   max-width: 288px;
 }
 
-/* *our_team*/ 
+/* *our_team*/
 
 .our-team {
   background-color: var(--logo-color);
@@ -807,6 +920,14 @@ textarea {
   width: 100%;
   max-width: 264px;
   margin-bottom: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
 }
 
 .team-list img {
@@ -874,6 +995,18 @@ textarea {
   display: flex;
   column-gap: 24px;
   flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-list {
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-item {
+    width: 350px;
+  }
 }
 
 .portfolio-card {
@@ -977,6 +1110,8 @@ textarea {
   /* align-items: baseline; */
 }
 
+
+
 .footer-container > * {
   text-align: center;
 }
@@ -1002,6 +1137,38 @@ textarea {
   align-items: center;
   /* gap: 24px; */
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: baseline; */
+  }
+  
+  .footer-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .footer-title {
+ text-align: left;
+}
+.ffffff{
+  display: flex;
+  gap:24px;
+}
+.footer-web-studio {
+  text-align: left;
+}
+/* .footer-field{
+  width: 453px;
+} */
+ .footer-container > * {
+  text-align: center;
+  width: 453px;
+}
 }
 
 /* .footer-field {
@@ -1057,7 +1224,7 @@ textarea {
   padding: 0 24px 0 24px;
   box-sizing: border-box;
   background-color: var(--accent-color);
-  display: inline-flex; 
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
@@ -1069,7 +1236,6 @@ textarea {
 .footer-btn:hover {
   cursor: pointer;
 }
-
 
 .modal-btn {
   /* position: absolute; */
