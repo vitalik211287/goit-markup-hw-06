@@ -2,23 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    /> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    /> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -26,7 +18,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/mobile.css" />
   </head>
   <body>
     <header class="flex-header">
@@ -35,6 +28,16 @@
           <a class="header-logo link" href="./index.html" lang="en"
             >WEB<span class="header-logo-studio">Studio</span></a
           >
+          <button
+            type="button"
+            aria-label="open window"
+            class="header-modal-open-btn"
+            data-header-modal-open
+          >
+            <svg class="header-modal__icon" width="24" height="24">
+              <use href="./images/mobile/svg/symbol-defs.svg#icon-menu_24px" />
+            </svg>
+          </button>
           <ul class="header-list list">
             <li class="header-item">
               <a class="header-link link current" href="./index.html">Studio</a>
@@ -63,6 +66,87 @@
         </address>
       </div>
     </header>
+    <section class="header-modal">
+      <h2 class="visually-hidden">header-modal</h2>
+      <div class="header-modal__backdrop is-hidden" data-header-modal>
+        <div class="header-modal__container">
+          <button
+            type="button"
+            aria-label="закрыть окно"
+            class="modal-close-btn"
+            data-header-modal-close
+          >
+            <svg class="vector-svg" width="8" height="8">
+              <use href="./images/vector-sptite.svg#icon-Vector" />
+            </svg>
+          </button>
+          <nav class="header-nav">
+            <ul class="header-nav__list list">
+              <li class="header-nav__item">
+                <a class="header-link link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="header-nav__item">
+                <a class="header-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="header-nav__item">
+                <a class="header-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-connect">
+            <ul class="header-address__list list">
+              <li class="header-address__item">
+                <a class="header-address__link link" href="tel:+380961111111">
+                  +38 096 111 11 11
+                </a>
+              </li>
+              <li class="header-address__item">
+                <a
+                  class="header-address__link link"
+                  href="mailto:info@devstudio.com"
+                >
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="list social-footer-list">
+            <li class="social-item-footer">
+              <a href="#" class="social-link-footer">
+                <svg class="footer-svg" width="24" height="24">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item-footer">
+              <a href="#" class="social-link-footer">
+                <svg class="footer-svg" width="24" height="24">
+                  <use href="./images/icons.svg#twitter" />
+                </svg>
+              </a>
+            </li>
+            <li class="social-item-footer">
+              <a href="#" class="social-link-footer">
+                <svg class="footer-svg" width="24" height="24">
+                  <use href="./images/icons.svg#facebook" />
+                </svg>
+              </a>
+            </li>
+            <li class="social-item-footer">
+              <a href="#" class="social-link-footer">
+                <svg class="footer-svg" width="24" height="24">
+                  <use href="./images/icons.svg#linkedin" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </section>
     <main class="main-padding">
       <section class="hero section">
         <div class="hero-container container">
