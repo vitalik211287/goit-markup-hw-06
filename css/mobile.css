@@ -456,7 +456,7 @@ body {
 
 .social-footer-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 16px;
 }
 .header-connect .social-footer-list {
@@ -1111,8 +1111,6 @@ textarea {
   /* align-items: baseline; */
 }
 
-
-
 .footer-container > * {
   text-align: center;
 }
@@ -1146,7 +1144,7 @@ textarea {
     align-items: center;
     /* align-items: baseline; */
   }
-  
+
   .footer-form {
     display: flex;
     flex-direction: row;
@@ -1154,22 +1152,22 @@ textarea {
     gap: 24px;
   }
   .footer-title {
- text-align: left;
-}
-.ffffff{
-  display: flex;
-  gap:24px;
-}
-.footer-web-studio {
-  text-align: left;
-}
-/* .footer-field{
+    text-align: left;
+  }
+  .ffffff {
+    display: flex;
+    gap: 24px;
+  }
+  .footer-web-studio {
+    text-align: left;
+  }
+  /* .footer-field{
   width: 453px;
 } */
- .footer-container > * {
-  text-align: center;
-  width: 453px;
-}
+  .footer-container > * {
+    text-align: center;
+    width: 453px;
+  }
 }
 
 /* .footer-field {
