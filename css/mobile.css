@@ -456,7 +456,7 @@ body {
 
 .social-footer-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   gap: 16px;
 }
 .header-connect .social-footer-list {
@@ -1101,6 +1101,7 @@ textarea {
   letter-spacing: 0.02em;
   color: var(--logo-color);
   width: 264px;
+  margin-bottom: 72px;
 }
 
 .footer-container {
