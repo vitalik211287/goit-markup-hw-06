@@ -310,7 +310,7 @@ body {
    @media screen and (min-width: 1200x) {
  .address-list {
     gap: 40px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   }
 }
 
