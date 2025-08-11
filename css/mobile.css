@@ -1145,8 +1145,16 @@ padding: 0;
     display: flex;
     column-gap: 24px;
     flex-wrap: wrap;
+  }
+}
+  @media screen and (min-width:1200px) {
+  .portfolio-list {
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
     width: 1128px;
   }
+  
   /* .portfolio-item {
   background-color: var(--background-color);
   width: fit-content;
