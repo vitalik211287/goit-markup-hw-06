@@ -307,10 +307,12 @@ body {
     flex-direction: column;
   }
 
-   @media screen and (min-width: 1200x) {
+   @media screen and (min-width: 1200px) {
  .address-list {
-    gap: 40px;
+  display: flex;
+  gap: 40px;
   flex-wrap: nowrap;
+   padding: 24px 0 24px 0;
   }
 }
 
