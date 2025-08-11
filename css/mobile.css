@@ -1329,6 +1329,7 @@ align-items: baseline;
 .footer-form {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
   gap: 24px;
   width: 100%;
 }
@@ -1390,6 +1391,11 @@ align-items: baseline;
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+
+@media screen and (min-width: 1200px) {
+
+}
+
 
 .footer-label input::placeholder {
   color: #ffffff;
