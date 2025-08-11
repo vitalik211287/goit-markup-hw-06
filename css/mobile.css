@@ -1141,10 +1141,10 @@ padding: 0;
     flex-wrap: wrap;
   }
 }
-  @media screen and (min-width:1200px) {
+  /* @media screen and (min-width:1200px) {
   .portfolio-list {
     width: 1128px;
-  }
+  } */
 
   /* .portfolio-item {
   background-color: var(--background-color);
