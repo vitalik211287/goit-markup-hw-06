@@ -1342,6 +1342,13 @@ align-items: baseline;
     display: flex;
     gap: 24px;
   }
+
+  @media screen and (min-width: 1200px) {
+.ffffff {
+    display: flex;
+  }
+}
+  
   .footer-web-studio {
     text-align: left;
   }
