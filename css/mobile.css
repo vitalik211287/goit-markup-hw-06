@@ -1308,27 +1308,27 @@ align-items: baseline;
 
 /* footer form */
 
-/* .footer-form {
+.footer-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
   width: 100%;
-} */
+}
 
 
 
-  .footer-form {
+  /* .footer-form {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 24px;
-  }
+  } */
 
   @media screen and (min-width: 1200px) {
 .footer-form {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 24px;
   width: 100%;
 }
