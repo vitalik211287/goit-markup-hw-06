@@ -847,7 +847,8 @@ textarea {
     min-width: 356px;
   }
   .advantage-after-title {
-    min-width: 100%;
+    min-width: 288px;
+    width: 100%;
   }
 }
 
