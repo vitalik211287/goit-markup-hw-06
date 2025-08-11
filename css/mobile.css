@@ -323,8 +323,6 @@ body {
   flex-direction: row;
   gap: 40px;
   flex-wrap: nowrap;
-   /* padding-top: 24px;
-   padding-bottom: 24px; */
   }
 }
 
@@ -924,6 +922,7 @@ padding: 0;
   .advantage-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
     width: 100%;
   }
