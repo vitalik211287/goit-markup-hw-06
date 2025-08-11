@@ -914,11 +914,10 @@ padding: 0;
     width: 100%;
   }
   .advantage-item {
-    
     width: 356px;
   }
   .advantage-after-title {
-    min-width: 100%;
+    /* min-width: 100%; */
   }
 }
 
