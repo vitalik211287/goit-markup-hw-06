@@ -307,7 +307,8 @@ body {
 
   @media screen and (min-width: 1200px) {
  .header-address {
-     padding: 24px 0 24px 0;
+     padding-top: 24px ;
+     padding-bottom:24px;
 }
 }
 
