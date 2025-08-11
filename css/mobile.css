@@ -1036,6 +1036,7 @@ padding: 0;
   .our-team-list {
     display: flex;
     flex-wrap: nowrap;
+    margin: 0 ;
   }
 }
 
