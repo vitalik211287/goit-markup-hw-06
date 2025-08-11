@@ -307,7 +307,7 @@ body {
 
   @media screen and (min-width: 1200px) {
  .header-address {
-     padding: 24px 0 24px 0;
+     /* padding: 24px 0 24px 0; */
 }
 }
 
@@ -322,8 +322,8 @@ body {
   flex-direction: row;
   gap: 40px;
   flex-wrap: nowrap;
-   /* padding-top: 24px;
-   padding-bottom: 24px; */
+   padding-top: 24px;
+   padding-bottom: 24px;
   }
 }
 
