@@ -798,9 +798,6 @@ textarea {
 
 .hero {
   background: var(--h-color);
-  /* text-align: center; */
-  /* padding: 188px 0 188px 0px;
-  max-width: 1440px; */
   width: 100%;
   height: 432px;
   margin-left: auto;
@@ -814,21 +811,29 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
 }
-/* @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero-mob-2x.jpg);
-  }
-} */
+
+@media screen and (min-width: 1200px) {
+ .hero {
+  text-align: center;
+  padding: 188px 0 188px 0px;
+  max-width: 1440px;
+}
+}
+
 .hero-title {
   max-width: 496px;
   font-weight: 700;
-  /* font-size: 56px; */
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--background-color);
   margin-bottom: 72px;
+}
+@media screen and (min-width: 1200px) {
+.hero-title {
+  font-size: 56px;
+}
 }
 
 .hero-container {
@@ -837,6 +842,12 @@ textarea {
   flex-direction: column;
   align-items: center;
   padding: 72px 52px 72px 52px;
+}
+
+@media screen and (min-width: 1200px) {
+.hero-container {
+padding: 0;
+}
 }
 
 .hero-btn {
@@ -903,6 +914,8 @@ textarea {
   }
 }
 
+
+
 .advantage-item {
   width: 288px;
   max-width: 100%;
@@ -915,20 +928,31 @@ textarea {
 .advantage-title {
   text-align: center;
   font-weight: 500;
-  /* font-size: 20px; */
-  /* line-height: 1.2; */
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--h-color);
   margin-bottom: 8px;
 }
+@media screen and (min-width: 1200px) {
+ .advantage-title {
+  font-size: 20px;
+  line-height: 1.2;
+}
+}
+
 .advantage-after-title {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--paragraph-color);
   max-width: 288px;
+}
+
+@media screen and (min-width: 1200px) {
+ .advantage-after-title {
+  max-width: 264px;
+}
 }
 
 /* *our_team*/
