@@ -1277,6 +1277,7 @@ padding: 0;
 
 @media screen and (min-width: 1200px) {
 .footer-container {
+  display: flex;
 flex-direction: row;
 align-items: baseline;
 }
