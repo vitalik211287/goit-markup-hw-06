@@ -194,12 +194,6 @@ body {
   margin-right: auto;
 }
 
-@media screen and (max-width: 767px) {
-  .header-list,
-  .header-address {
-    display: none;
-  }
-}
 
 @media screen and (min-width: 767px) {
   .flex-header {
@@ -303,6 +297,14 @@ body {
     padding-bottom: 16px;
   }
 
+  @media screen and (max-width: 767px) {
+  .header-list,
+  .header-address {
+    display: none;
+  }
+}
+
+
   @media screen and (min-width: 1200px) {
  .header-address {
      padding: 24px 0 24px 0;
@@ -320,8 +322,8 @@ body {
   flex-direction: row;
   gap: 40px;
   flex-wrap: nowrap;
-   padding-top: 24px;
-   padding-bottom: 24px;
+   /* padding-top: 24px;
+   padding-bottom: 24px; */
   }
 }
 
