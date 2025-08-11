@@ -930,7 +930,7 @@ padding: 0;
     width: 356px;
   }
   .advantage-after-title {
-    /* min-width: 100%; */
+    max-width: 100%;
   }
 }
 
