@@ -941,6 +941,12 @@ padding: 0;
     /* width: 100%; */
     width: 264px;
   }
+    .advantage-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+    width: 100%;
+  }
 }
 
 
