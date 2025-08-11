@@ -1036,8 +1036,19 @@ padding: 0;
   .our-team-list {
     display: flex;
     flex-wrap: nowrap;
-    margin: 0 ;
+    margin: 0 auto ;
   }
+  .team-list {
+  background: var(--white);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  text-align: center;
+ margin: 0 ;
+  width: 100%;
+  max-width: 264px;
+  margin-bottom: 72px;
+}
 }
 
 .team-list img {
