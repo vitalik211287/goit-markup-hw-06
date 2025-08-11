@@ -939,7 +939,7 @@ padding: 0;
 }
  .advantage-item {
     /* width: 100%; */
-    min-width: 264px;
+    width: 264px;
   }
 }
 
