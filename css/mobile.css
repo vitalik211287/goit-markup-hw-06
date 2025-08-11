@@ -896,7 +896,7 @@ padding: 0;
 } */
 
 .advantage-item {
-  width: 288px;
+  width: 288x;
   max-width: 100%;
   margin-bottom: 0;
 }
@@ -913,8 +913,8 @@ padding: 0;
     width: 100%;
   }
   .advantage-item {
-    width: 100%;
-    min-width: 356px;
+    
+    width: 356px;
   }
   .advantage-after-title {
     min-width: 100%;
