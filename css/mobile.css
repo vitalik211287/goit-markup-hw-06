@@ -1278,6 +1278,8 @@ padding: 0;
   align-items: center;
   /* align-items: baseline; */
 }
+
+
 @media screen and (min-width: 768px) {
   .footer-container {
     display: flex;
@@ -1298,11 +1300,7 @@ align-items: baseline;
   text-align: center;
 }
 
-/* @media screen and (min-width: 1200px) {
-.footer-container > * {
-  text-align: center;
-}
-} */
+
 
 .footer-container > *:not(:last-child) {
   margin-bottom: 72px;
@@ -1327,7 +1325,15 @@ align-items: baseline;
   width: 100%;
 }
 
-
+  @media screen and (min-width: 768px) {
+.footer-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+}
 
   /* .footer-form {
     display: flex;
