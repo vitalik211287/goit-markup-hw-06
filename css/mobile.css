@@ -139,8 +139,8 @@ body {
   /* padding-top: 96px; */
   padding-bottom: 120px;
    /* padding: 96px 0;  */
-  max-width: 1440px;
-  margin: 0 auto;
+  /* max-width: 1440px;
+  margin: 0 auto; */
   /* padding: 96px 0; */
 }
 }
@@ -208,6 +208,18 @@ body {
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
 
+  @media screen and (min-width: 1200x) {
+  .header-container {
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: space-between; */
+  width: 1158px;
+  padding: 0 15px;
+  /* margin: 0 auto; */
+}
+}
+
+
   /* Контейнер */
   .header-container {
     display: flex;
@@ -217,6 +229,16 @@ body {
     padding: 0 15px;
     margin: 0 auto;
   }
+    @media screen and (min-width: 1200x) {
+  .header-container {
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: space-between; */
+  width: 1158px;
+  padding: 0 15px;
+  /* margin: 0 auto; */
+}
+}
 
   /* Навігація */
   .header-nav {
@@ -283,12 +305,25 @@ body {
     padding-bottom: 16px;
   }
 
+  @media screen and (min-width: 1200x) {
+ .header-address {
+  padding: 24px 0 24px 0;
+}
+}
+
   .address-list {
     display: flex;
     flex-direction: column;
     /* gap: 40px;
   flex-wrap: wrap; */
   }
+
+   @media screen and (min-width: 1200x) {
+ .address-list {
+    gap: 40px;
+  flex-wrap: wrap;
+  }
+}
 
   .header-address:hover,
   .header-address:focus {
