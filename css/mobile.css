@@ -296,9 +296,9 @@ body {
     padding-bottom: 16px;
   }
 
-  @media screen and (min-width: 1200x) {
+  @media screen and (min-width: 1200px) {
  .header-address {
-  padding:  0;
+     padding: 24px 0 24px 0;
 }
 }
 
