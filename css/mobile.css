@@ -1145,6 +1145,7 @@ padding: 0;
     display: flex;
     column-gap: 24px;
     flex-wrap: wrap;
+    width: 1128px;
   }
   /* .portfolio-item {
   background-color: var(--background-color);
