@@ -133,6 +133,18 @@ body {
   padding: 96px 0;
 }
 
+@media (min-width: 1200px) {
+  .section {
+  padding-top: 120px; 
+  /* padding-top: 96px; */
+  padding-bottom: 120px;
+   /* padding: 96px 0;  */
+  max-width: 1440px;
+  margin: 0 auto;
+  /* padding: 96px 0; */
+}
+}
+
 /* .container {
   width: 100%;
   max-width: 1440px;
