@@ -258,7 +258,13 @@ body {
     color: var(--focus-color);
   }
 
-  .current::after {
+.current::after {
+    content: "";
+    display: none;
+  }
+
+      @media screen and (min-width: 768px) {
+.current::after {
     content: "";
     display: flex;
     border-radius: 2%;
@@ -271,6 +277,9 @@ body {
     border-radius: 2px;
     background-color: var(--focus-color);
   }
+}
+
+  
 
       @media screen and (min-width: 1200px) {
   .current::after {
