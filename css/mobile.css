@@ -172,11 +172,12 @@ body {
 .container {
   /* width: 100%; */
   /* max-width: 1440px; */
-  padding-left: 156px;
-  padding-right: 156px;
+  /* padding-left: 156px;
+  padding-right: 156px; */
   /* margin-left: auto;
   margin-right: auto; */
   /* box-sizing: border-box; */
+  
 }
 }
 
@@ -938,7 +939,6 @@ padding: 0;
   border: 1px solid #8e8f99;
 }
  .advantage-item {
-    /* width: 100%; */
     width: 264px;
   }
     .advantage-list {
