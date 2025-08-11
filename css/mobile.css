@@ -226,12 +226,7 @@ body {
  
     @media screen and (min-width: 1200px) {
   .header-container {
-  /* display: flex;
-  align-items: center; */
-  /* justify-content: space-between; */
   width: 1158px;
-  /* padding: 0 15px; */
-  /* margin: 0 auto; */
 }
 }
 
@@ -309,8 +304,6 @@ body {
   .address-list {
     display: flex;
     flex-direction: column;
-    /* gap: 40px;
-  flex-wrap: wrap; */
   }
 
    @media screen and (min-width: 1200x) {
@@ -894,6 +887,14 @@ padding: 0;
   width: 100%;
 }
 
+/* @media screen and (max-width: 1200px) {
+  .advantage-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+} */
+
 .advantage-item {
   width: 288px;
   max-width: 100%;
@@ -912,13 +913,14 @@ padding: 0;
     width: 100%;
   }
   .advantage-item {
-    width: 100%;
+    /* width: 100%; */
     min-width: 356px;
   }
   .advantage-after-title {
     min-width: 100%;
   }
 }
+
 /* icons */
 @media screen and (min-width: 1200px) {
   .icon-svg {
