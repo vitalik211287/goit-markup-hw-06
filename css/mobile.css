@@ -278,6 +278,12 @@ body {
     background-color: var(--focus-color);
   }
 
+      @media screen and (min-width: 1200px) {
+  .current::after {
+   bottom: -1px;
+}
+}
+
   .header-link:hover,
   .header-link:focus,
   .header-link:active {
