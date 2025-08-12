@@ -920,7 +920,7 @@ textarea {
 
 .advantage-item:not(:last-child) {
   margin-bottom:  72px;
-  background-color: purple
+  background-color: mediumspringgreen
 }
 
 @media screen and (max-width: 768px) {
@@ -931,9 +931,9 @@ textarea {
   
 }
 @media screen and (max-width: 1200px) {
-    /* .advantage-item:nth-last-child(n+3) {
-    margin-right: 30px;
-  } */
+  .advantage-item:nth-last-child(-n + 4) {
+    margin-bottom: 0;
+  }
   
 }
 
