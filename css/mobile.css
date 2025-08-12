@@ -961,9 +961,6 @@ textarea {
   margin-bottom: 72px;
 }
 
-@media screen and (min-width: 1200px) {
-}
-
   .our-team-list {
  box-sizing: border-box;
   width: 100%;
@@ -972,6 +969,11 @@ textarea {
   gap: 24px;
   flex-wrap: wrap;
 }
+
+/* @media screen and (min-width: 1200px) {
+} */
+
+
 
 
 .subtitle {
