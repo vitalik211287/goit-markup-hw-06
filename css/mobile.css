@@ -960,9 +960,9 @@ textarea {
     gap: 24px;
     width: 100%;
   }
-  .advantage-item:nth-last-child(-n+2) {
+  /* .advantage-item:nth-last-child(-n+2) {
     margin-bottom: 0;
-  }
+  } */
 }
 
 @media screen and (min-width: 1200px) {
