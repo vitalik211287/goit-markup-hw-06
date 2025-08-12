@@ -961,18 +961,6 @@ textarea {
   margin-bottom: 72px;
 }
 
-  .our-team-list {
- box-sizing: border-box;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 72px;
-  flex-wrap: wrap;
-}
-
-/* @media screen and (min-width: 1200px) {
-} */
-
 
 
 
@@ -999,17 +987,23 @@ textarea {
   margin: 0 auto;
   width: 100%;
   max-width: 264px;
-  margin-bottom: 0;
   height: 428px;
-  
 }
 
+
+  .our-team-list {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+  flex-wrap: wrap;
+}
 
 @media screen and (min-width: 1200px) {
   .our-team-list {
     display: flex;
     flex-wrap: nowrap;
-    margin-bottom: 0;
     margin: 0 auto;
     gap: 24px;
   }
