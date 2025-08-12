@@ -1089,6 +1089,7 @@ textarea {
   max-width: 264px;
   margin-bottom: 0;
   height: 428px;
+  
 }
 
   .team-list:not(:last-child) {
@@ -1098,11 +1099,11 @@ textarea {
 
 
 @media screen and (min-width: 768px) {
-  .our-team-list {
+  /* .our-team-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-  }
+  } */
    .team-listr:nth-last-child(-n + 2) {
     margin-bottom: 0;
   }
