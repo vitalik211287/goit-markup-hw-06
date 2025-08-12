@@ -920,7 +920,7 @@ textarea {
 
 .advantage-item:not(:last-child) {
   margin-bottom:  72px;
-  background-color: mediumspringgreen
+  background-color: khaki
 }
 
 @media screen and (min-width: 768px) {
