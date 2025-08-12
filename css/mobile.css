@@ -1026,7 +1026,7 @@ textarea {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--h-color);
-  /* margin-bottom: 72px; */
+  margin-bottom: 72px;
 }
 
   /* .our-team-list:not(:last-child) {
