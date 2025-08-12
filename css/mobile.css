@@ -951,7 +951,7 @@ textarea {
 }
 
 @media screen and (min-width: 1200px) {
-  .advantage-list {
+  .advantage-item {
  margin-bottom: 0;
   }
 }
