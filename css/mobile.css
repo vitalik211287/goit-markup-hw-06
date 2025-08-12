@@ -962,9 +962,6 @@ textarea {
 }
 
 @media screen and (min-width: 1200px) {
-  .our-team-list {
- gap: 24px;
-}
 }
 
   .our-team-list {
@@ -972,7 +969,7 @@ textarea {
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 72px;
+  gap: 24px;
   flex-wrap: wrap;
 }
 
