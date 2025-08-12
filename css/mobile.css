@@ -919,8 +919,8 @@ textarea {
 }
 
 .advantage-item:not(:last-child) {
-  margin-bottom:  72px;
-  background-color: khaki
+  /* margin-bottom:  72px; */
+  background-color: red
 }
 
 @media screen and (min-width: 768px) {
