@@ -188,7 +188,7 @@ body {
   margin-right: auto;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .flex-header {
     border-bottom: 1px solid #e7e9fc;
     background-color: var(--background-color);
@@ -294,7 +294,7 @@ body {
   padding-bottom: 16px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header-list,
   .header-address {
     display: none;
@@ -371,7 +371,7 @@ body {
   color: #000000;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .header-modal-open-btn {
     display: none;
   }
@@ -576,7 +576,7 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .modal {
     width: 408px;
     height: 584px;
@@ -767,7 +767,7 @@ textarea {
   margin-left: 27px;
   color: var(--accent-color);
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .check-text-link {
     margin-left: 0;
   }
@@ -1159,12 +1159,21 @@ textarea {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 768px) {
+  .portfolio-item:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+}
+}
+
 @media screen and (min-width: 1200px) {
   .portfolio-item {
     width: fit-content;
     width: 360px;
     margin-bottom: 48px;
   }
+  .portfolio-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
 }
 
 .portfolio-card {
@@ -1177,9 +1186,7 @@ textarea {
   position: relative;
 }
 
-.portfolio-item:not(:last-child) {
-  margin-bottom: 48px;
-}
+
 
 
 .portfolio-item:hover {
@@ -1187,9 +1194,9 @@ textarea {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/* .portfolio-item:nth-last-child(-n + 3) {
+.portfolio-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
-} */
+}
 
 /* portfolio invisible cards  */
 
