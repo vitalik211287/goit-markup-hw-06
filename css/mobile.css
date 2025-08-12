@@ -902,13 +902,15 @@ textarea {
   box-sizing: border-box;
   width: 100%;
 }
-
+.advantage-list:not(:last-child) {
+  margin-bottom:  72px;
+}
 
 .advantage-item {
   width: 288px;
   max-width: 100%;
   margin: 0 auto;
-   margin-bottom:  72px;
+   /* margin-bottom:  72px; */
 }
 
 .advantage-title {
@@ -922,9 +924,7 @@ textarea {
    margin-bottom:  72px;
 }
 
-.advantage-list:not(:last-child) {
-  margin-bottom:  72px;
-}
+
 .advantage-after-title {
   font-size: 16px;
   line-height: 1.5;
