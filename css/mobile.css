@@ -1043,9 +1043,7 @@ textarea {
   max-width: 264px;
   /* margin-bottom: 72px; */
 }
-.team-list:not(:last-child) {
-  margin-bottom: 72px;
-}
+
 
 @media screen and (min-width: 768px) {
   .our-team-list {
@@ -1064,6 +1062,9 @@ textarea {
     margin-bottom: 0;
     margin: 0 auto;
   }
+  /* .team-list:not(:last-child) {
+  margin-bottom: 72px;
+} */
  
 }
 
