@@ -921,7 +921,7 @@ textarea {
    /* .advantage-item:nth-child(2n+1) {
     margin-right: 30px;
   } */
-  .advantage-item:nth-last-child(-n+2) {
+  .advantage-item:nth-last-child(-n + 2) {
     margin-bottom: 0;
   }
   
