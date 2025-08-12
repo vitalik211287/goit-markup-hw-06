@@ -1007,6 +1007,12 @@ textarea {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .team-list {
+    margin: 0;
+  }
+}
+
 .team-list img {
   margin: 0 auto;
   width: 100%;
