@@ -913,14 +913,15 @@ textarea {
 
 .advantage-item:not(:last-child) {
   margin-bottom:  72px;
-  background-color: pink;
+  background-color: fuchsia
 }
 
 
 @media screen and (max-width: 768px) {
-   .team-list:nth-last-child(-n + 2) {
+   .advantage-item:not(:last-child) {
   margin-bottom: 0;
-  }
+  background-color: fuchsia
+}
   
 }
 
@@ -1085,7 +1086,7 @@ textarea {
    .team-list {
     margin-bottom: 0;
   }
-    .team-list:nth-last-child(-n + 2) {
+  .team-listr:not(:last-child) {
   margin-bottom: 0;
 }
 }
