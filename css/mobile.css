@@ -747,10 +747,37 @@ textarea {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero.jpg);
+    url(../images/Hero-mob-2x.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient( rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)), url(../images/Hero-mob-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-size: cover;
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/Hero-tab-1x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/Hero-tab-2x.jpg);
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -759,6 +786,19 @@ textarea {
     padding: 188px 0 188px 0px;
     max-width: 1440px;
     height: 100%;
+     background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/Hero-des-1x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/Hero-des-2x.jpg);
   }
 }
 
@@ -853,7 +893,7 @@ textarea {
 
 .advantage-title {
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -928,6 +968,7 @@ textarea {
 @media screen and (min-width: 768px) {
   .advantage-title {
    text-align: left;
+   font-weight: 500;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1077,6 +1118,7 @@ textarea {
   background-color: var(--focus-color);
   color: #ffffff;
 }
+
 
 /* our portfolio */
 
