@@ -878,6 +878,13 @@ textarea {
     gap: 24px;
     width: 100%;
   }
+  .advantage-after-title {
+  max-width: 356px;
+}
+
+.advantage-item {
+  width: 356px;
+}
 }
 
 @media screen and (min-width: 1200px) {
