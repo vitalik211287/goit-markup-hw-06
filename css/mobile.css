@@ -960,9 +960,8 @@ textarea {
     gap: 24px;
     width: 100%;
   }
-  .advantage-item {
-     margin: 0 auto;
-    width: 356px;
+  .advantage-item:nth-last-child(-n+2) {
+    margin-bottom: 0;
   }
 }
 
