@@ -901,26 +901,30 @@ textarea {
 .advantage-list {
   box-sizing: border-box;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 72px;
+  flex-wrap: wrap;
 }
+
+
 
 
 .advantage-item {
   width: 288px;
   max-width: 100%;
   margin: 0 auto;
-  height: 120px;
-  margin-bottom:  0;
+  /* height: 120px;
+  margin-bottom:  0; */
 }
 
 .advantage-item:not(:last-child) {
   margin-bottom:  72px;
-  background-color: tomato
+  background-color: purple
 }
 
 @media screen and (max-width: 768px) {
-   /* .advantage-item:nth-child(2n+1) {
-    margin-right: 30px;
-  } */
+
   .advantage-item:nth-last-child(-n + 2) {
     margin-bottom: 0;
   }
@@ -1085,28 +1089,20 @@ textarea {
   margin-bottom: 72px;
 }
 
+
+
 @media screen and (min-width: 768px) {
   .our-team-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
   }
-   /* .team-list {
-    margin-bottom: 48px;
-  } */
    .team-listr:nth-last-child(-n + 2) {
     margin-bottom: 0;
   }
-    /* .team-list:not(:last-child) {
-  margin-bottom: 0;
-} */
 }
 
-/* @media screen and (min-width: 768px) {
-  .portfolio-item:nth-last-child(-n + 2) {
-  margin-bottom: 0;
-}
-} */
+
 
 @media screen and (min-width: 1200px) {
   .our-team-list {
@@ -1127,12 +1123,6 @@ textarea {
   max-height: 260px;
 }
 
-.team-card {
-  width: 264px;
-  text-align: center;
-  padding: 32px 0 32px 0;
-  border-radius: 0px 0px 4px 4px;
-}
 
 .team-card {
   width: 264px;
