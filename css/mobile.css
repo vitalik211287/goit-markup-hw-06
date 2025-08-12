@@ -908,12 +908,13 @@ textarea {
   width: 288px;
   max-width: 100%;
   margin: 0 auto;
+  height: 120px;
   /* margin-bottom:  0; */
 }
 
 .advantage-item:not(:last-child) {
   margin-bottom:  72px;
-  background-color: greenyellow
+  background-color: darkmagenta
 }
 
 @media screen and (max-width: 768px) {
@@ -1077,6 +1078,7 @@ textarea {
   width: 100%;
   max-width: 264px;
   margin-bottom: 0;
+  height: 428px;
 }
 
   .team-list:not(:last-child) {
