@@ -913,7 +913,7 @@ textarea {
 
 .advantage-item:not(:last-child) {
   margin-bottom:  72px;
-  background-color: red;
+  background-color: greenyellow;
 }
 
 .advantage-title {
@@ -1160,7 +1160,7 @@ textarea {
    /* margin-bottom: 48px; */
 }
 
-.portfolio-list:not(:last-child) {
+.portfolio-item:not(:last-child) {
   margin-bottom: 48px;
 }
 
