@@ -916,6 +916,14 @@ textarea {
   background-color: pink;
 }
 
+
+@media screen and (max-width: 768px) {
+   .team-list:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+  }
+  
+}
+
 .advantage-title {
   text-align: center;
   font-weight: 500;
