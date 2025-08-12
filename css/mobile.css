@@ -631,7 +631,7 @@ body {
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  background-color: #404bbf;
+  background-color: plum
   color: #ffffff;
   border: none;
 }
@@ -1089,16 +1089,22 @@ textarea {
     flex-wrap: wrap;
     gap: 24px;
   }
-   .team-list {
+   /* .team-list {
     margin-bottom: 48px;
+  } */
+   .team-listr:nth-last-child(-n + 2) {
+    margin-bottom: 0;
   }
-   .team-listr:nth-last-child(-n+2) {
-    margin-bottom: 0px;
-  }
-    .team-list:not(:last-child) {
+    /* .team-list:not(:last-child) {
+  margin-bottom: 0;
+} */
+}
+
+/* @media screen and (min-width: 768px) {
+  .portfolio-item:nth-last-child(-n + 2) {
   margin-bottom: 0;
 }
-}
+} */
 
 @media screen and (min-width: 1200px) {
   .our-team-list {
