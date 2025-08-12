@@ -913,15 +913,23 @@ textarea {
 
 .advantage-item:not(:last-child) {
   margin-bottom:  72px;
-  background-color: fuchsia
+  background-color: darkorange
 }
 
 
 @media screen and (max-width: 768px) {
-   .advantage-item:not(:last-child) {
-  margin-bottom: 0;
-  background-color: fuchsia
+   /* .advantage-item:nth-child(2n+1) {
+    margin-right: 30px;
+  } */
+  .advantage-item:nth-last-child(-n+2) {
+    margin-bottom: 0;
+  }
+  
 }
+@media screen and (max-width: 1200px) {
+    .advantage__item:nth-last-child(n+3) {
+    margin-right: 30px;
+  }
   
 }
 
