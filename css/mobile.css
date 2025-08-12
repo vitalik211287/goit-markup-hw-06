@@ -1054,9 +1054,15 @@ textarea {
   margin-bottom: 72px;
 }
 
-  /* .our-team-list:not(:last-child) {
-  margin-bottom: 72px;
-} */
+  .our-team-list {
+ box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 72px;
+  flex-wrap: wrap;
+}
+
 
 .subtitle {
   font-weight: 500;
