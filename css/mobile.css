@@ -911,7 +911,7 @@ textarea {
    /* margin-bottom:  72px; */
 }
 
-.advantage-list:not(:last-child) {
+.advantage-item:not(:last-child) {
   margin-bottom:  72px;
   background-color: red;
 }
