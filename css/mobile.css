@@ -961,6 +961,12 @@ textarea {
   margin-bottom: 72px;
 }
 
+@media screen and (min-width: 1200px) {
+  .our-team-list {
+ gap: 24px;
+}
+}
+
   .our-team-list {
  box-sizing: border-box;
   width: 100%;
