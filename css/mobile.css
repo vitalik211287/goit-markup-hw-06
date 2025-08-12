@@ -998,18 +998,23 @@ textarea {
  
 }
 
+
+
+@media screen and (min-width: 768px) {
+  .team-list {
+    margin: 0;
+  }
+  .our-team-list {
+    gap: 24px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .our-team-list {
     display: flex;
     flex-wrap: nowrap;
     margin: 0 auto;
     gap: 24px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .team-list {
-    margin: 0;
   }
 }
 
