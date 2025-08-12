@@ -844,15 +844,11 @@ textarea {
   flex-wrap: wrap;
 }
 
-
-
-
 .advantage-item {
   width: 288px;
   max-width: 100%;
   margin: 0 auto;
 }
-
 
 
 .advantage-title {
@@ -893,7 +889,6 @@ textarea {
 /* icons */
 
 
-
 @media screen and (min-width: 1200px) {
   .icon-svg {
     fill: currentColor;
@@ -922,8 +917,6 @@ textarea {
 
   }
 }
-
-
 
 @media screen and (min-width: 768px) {
   .advantage-title {
@@ -1039,6 +1032,7 @@ textarea {
 }
 
 /*our-team social list */
+
 .social-list {
   padding-left: 16px;
   padding-right: 16px;
@@ -1115,8 +1109,6 @@ textarea {
   box-sizing: border-box;
   position: relative;
 }
-
-
 
 
 .portfolio-item:hover {
