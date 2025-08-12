@@ -1094,10 +1094,13 @@ textarea {
    .team-list {
     margin-bottom: 0;
   }
-  .team-listr:not(:last-child) {
-  margin-bottom: 0;
+  /* .team-listr:not(:last-child) {
+  margin-bottom: 0; */
+   .team-listr:nth-last-child(-n+2) {
+    margin-bottom: 0px;
+  }
 }
-}
+
 @media screen and (min-width: 1200px) {
   .our-team-list {
     display: flex;
