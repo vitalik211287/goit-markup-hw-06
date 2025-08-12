@@ -920,7 +920,7 @@ textarea {
   margin-bottom: 8px;
 }
 
-.advantage-item:not(:last-child) {
+.advantage-list:not(:last-child) {
   margin-bottom:  72px;
 }
 .advantage-after-title {
@@ -943,7 +943,9 @@ textarea {
      margin: 0 auto;
     width: 356px;
  
-}}
+
+  }
+}
 
 /* icons */
 
@@ -970,6 +972,11 @@ textarea {
     flex-wrap: nowrap;
     gap: 24px;
     width: 100%;
+  }
+  .advantage-item {
+    margin-bottom: 0;
+ 
+
   }
 }
 
@@ -1015,7 +1022,7 @@ textarea {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--h-color);
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
   /* .our-team-list:not(:last-child) {
@@ -1051,6 +1058,7 @@ textarea {
   .our-team-list:not(:last-child) {
   margin-bottom: 72px;
 }
+
 @media screen and (min-width: 768px) {
   .our-team-list {
     display: flex;
