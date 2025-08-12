@@ -913,7 +913,7 @@ textarea {
 
 .advantage-item:not(:last-child) {
   margin-bottom:  72px;
-  background-color: darkorange
+  background-color: yellow
 }
 
 
@@ -927,9 +927,9 @@ textarea {
   
 }
 @media screen and (max-width: 1200px) {
-    .advantage__item:nth-last-child(n+3) {
+    /* .advantage-item:nth-last-child(n+3) {
     margin-right: 30px;
-  }
+  } */
   
 }
 
@@ -1078,7 +1078,7 @@ textarea {
   margin: 0 auto;
   width: 100%;
   max-width: 264px;
-  /* margin-bottom: 72px; */
+  margin-bottom: 0;
 }
 
   .team-list:not(:last-child) {
@@ -1092,7 +1092,7 @@ textarea {
     gap: 24px;
   }
    .team-list {
-    margin-bottom: 0;
+    margin-bottom: 48px;
   }
   /* .team-listr:not(:last-child) {
   margin-bottom: 0; */
