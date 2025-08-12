@@ -923,7 +923,7 @@ textarea {
   background-color: greenyellow
 } */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
 
   .advantage-item:nth-last-child(-n + 2) {
     margin-bottom: 0;
@@ -935,7 +935,7 @@ textarea {
     margin-bottom: 0;
   }
   
-}
+} */
 
 .advantage-title {
   text-align: center;
