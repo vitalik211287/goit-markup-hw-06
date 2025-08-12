@@ -914,7 +914,7 @@ textarea {
 
 .advantage-item:not(:last-child) {
   margin-bottom:  72px;
-  background-color: darkmagenta
+  background-color: tomato
 }
 
 @media screen and (max-width: 768px) {
