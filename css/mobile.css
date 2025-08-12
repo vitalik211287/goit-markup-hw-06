@@ -903,7 +903,7 @@ textarea {
   width: 100%;
   display: flex;
   justify-content: center;
-  column-gap: 72px;
+  gap: 72px;
   flex-wrap: wrap;
 }
 
@@ -920,7 +920,7 @@ textarea {
 
 .advantage-item:not(:last-child) {
   /* margin-bottom:  72px; */
-  background-color: red
+  background-color: greenyellow
 }
 
 @media screen and (min-width: 768px) {
@@ -1059,7 +1059,7 @@ textarea {
   width: 100%;
   display: flex;
   justify-content: center;
-  column-gap: 72px;
+  gap: 72px;
   flex-wrap: wrap;
 }
 
