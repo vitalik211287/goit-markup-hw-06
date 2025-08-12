@@ -1092,9 +1092,9 @@ textarea {
   
 }
 
-  .team-list:not(:last-child) {
+  /* .team-list:not(:last-child) {
   margin-bottom: 72px;
-}
+} */
 
 
 
