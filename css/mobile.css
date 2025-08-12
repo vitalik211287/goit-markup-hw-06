@@ -909,7 +909,7 @@ textarea {
   max-width: 100%;
   margin: 0 auto;
   height: 120px;
-  /* margin-bottom:  0; */
+  margin-bottom:  0;
 }
 
 .advantage-item:not(:last-child) {
