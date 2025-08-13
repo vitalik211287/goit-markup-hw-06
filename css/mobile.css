@@ -568,7 +568,7 @@ body {
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  background-color: plum
+
   color: #ffffff;
   border: none;
 }
@@ -888,6 +888,7 @@ textarea {
   width: 288px;
   max-width: 100%;
   margin: 0 auto;
+    background-color: plum
 }
 
 
@@ -1130,6 +1131,26 @@ textarea {
 }
 
 
+.portfolio-item {
+  flex: 1 1 calc(33.333% - 24px); /* три в ряд на великому екрані */
+  box-sizing: border-box;
+}
+
+.container-item-img {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3; /* або 1 / 1, яке потрібно */
+  flex-shrink: 0;      /* забороняємо стискання у flex */
+  overflow: hidden;
+}
+
+.container-item-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* без спотворення, але з обрізанням */
+}
+
 
 @media screen and (min-width: 768px) {
   .portfolio-list {
@@ -1137,6 +1158,26 @@ textarea {
     gap: 24px;
     flex-wrap: wrap;
   }
+  .portfolio-item {
+  flex: 1 1 calc(33.333% - 24px); /* три в ряд на великому екрані */
+  box-sizing: border-box;
+}
+
+.container-item-img {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3; /* або 1 / 1, яке потрібно */
+  flex-shrink: 0;      /* забороняємо стискання у flex */
+  overflow: hidden;
+}
+
+.container-item-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* без спотворення, але з обрізанням */
+}
+
 }
 
 
